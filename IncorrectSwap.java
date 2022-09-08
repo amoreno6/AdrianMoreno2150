@@ -9,6 +9,6 @@ public class PrimitiveParameters {
     public static void incorrectSwap(int a, int b) {
         int tmp = a;
         a = b;
-        b = tmp;
+        
     }
 }
