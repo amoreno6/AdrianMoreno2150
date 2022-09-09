@@ -1,3 +1,8 @@
+/**
+ * ITEC 2150
+ * Created By Adrian Moreno
+ * 9//2022
+ */
 import java.util.Arrays;
 public class JaggedArrays {
     public static void main(String [] args){
