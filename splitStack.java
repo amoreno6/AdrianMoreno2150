@@ -1,4 +1,4 @@
-/** Class: SplitStack.java
+/** Class: splitStack.java
 *@author Adrian Moreno
 * Course: ITEC 2150
 * Written: 11/3/2022
@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class SplitStack 
+public class splitStack 
 {
     public static void main(String[] args) 
     {
@@ -28,8 +28,8 @@ public class SplitStack
         n0.push(new Integer(-7));
         System.out.println(n0);
 
-        SplitStack(n1);
-        System.out.println(n1);
+        splitStack(n0);
+        System.out.println(n0);
         Stack<Integer> n1 = new Stack<Integer>();
         n1.push(1);
         n1.push(-2);
@@ -64,7 +64,7 @@ public class SplitStack
         {
             if(list0.peek() < 0) 
             {
-                n0.push(list1.remove());
+                n0.push(list0.remove());
                 negNums--;
             } 
           
